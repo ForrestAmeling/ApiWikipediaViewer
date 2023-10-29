@@ -1,0 +1,35 @@
+<body>
+
+  <!--Title and subtitle-->
+  <h1 class="box"><i class="fa fa-wikipedia-w fa-lg" ></i>ikipedia</h1>
+  <h2>Viewer</h2>
+
+  <!--Wikipedia img-->
+  <a href="https://www.wikipedia.org/" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg"></a>
+
+  <!--Searchbar, searchbutton, search random wikipedia article button-->
+  <div class="text-center searchBar container-fluid">
+
+    <form action="">
+      <!--searchbar-->
+      <input type="text" class="searchBox" id="searchText" placeholder="Search Wikipedia" autocomplete="off" spellcheck="false">
+      <i class="fa fa-wikipedia-w fa-wiki-special fa-lg"></i>
+      <!--removes input text when clicked-->
+      <i class="fa fa-window-close fa-lg"></i>
+      <!--submits user input-->
+      <a id="search" class="btn btn-wiki"><i class="fa fa-search fa-lg" aria-hidden="true"></i></a>
+      <div class="btnList text-center">
+        <!--wrapped class wraps line around button...button searches random wiki article -->
+        <div class="wrapper"><a class="btn btn-luck" href='http://en.wikipedia.org/wiki/Special:Random' target="blank"> I'm Feeling Lucky</a></div>
+      </div>
+      <!--outputs jquery code-->
+      <div id="output" class="container-fluid searchContainer">
+
+      </div>
+
+    </form>
+
+  </div>
+
+</body>

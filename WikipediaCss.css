@@ -1,0 +1,164 @@
+body {
+  background-color: white;
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  padding: 10px 0px 5px 0px;
+}
+
+
+/*Title text*/
+
+h1 {
+  margin-top: 5%;
+  text-align: center;
+  color: black;
+  font-family: Hoefler Text, Baskerville Old Face, Garamond, Times New Roman, serif;
+  display: inline-block;
+  font-size: 100px;
+}
+
+
+/*subtitle and output title (wikipedia article title)*/
+
+h2 {
+  font-family: Hoefler Text, Baskerville Old Face, Garamond, Times New Roman, serif;
+  font-size: 40px;
+  margin-top: -2%;
+  color: black;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+
+/*description of wiki article*/
+
+p {
+  padding-bottom: 1%;
+  padding-left: 1%;
+  font-size: 25px;
+}
+
+.searchBar {
+  position: absolute;
+  top: 73% auto;
+  right: 0;
+  left: 0;
+  padding: 5px 0px 5px 0px;
+  font-size: 120%;
+}
+
+.btn {
+  color: rgb(250, 250, 250);
+  font-weight: 500;
+}
+
+
+/*search button (searches wikipedia api for users input text*/
+
+.btn-wiki {
+  margin-left: 2px;
+  margin-bottom: 3px;
+  background-color: blue;
+}
+
+
+/*displays random wikipedia article*/
+
+.btn-luck {
+  margin-left: 2px;
+  margin-bottom: 3px;
+  background-color: rgb(245, 245, 245);
+  color: blue;
+}
+
+
+/*creates and wripes horizontal line*/
+
+.wrapper:before,
+.wrapper:after {
+  content: " ";
+  width: 125px;
+  height: 2px;
+  margin: 0 10px;
+  vertical-align: super;
+  background-color: grey;
+  display: inline-block;
+}
+
+
+/*searchbox*/
+
+.searchBox {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 38px;
+  width: 360px;
+  border: solid blue;
+  background: rgb(250, 250, 250);
+}
+
+
+/*wiki W in Title*/
+
+.fa-wikipedia-w {
+  color: black;
+}
+
+
+/*wiki W to the left of searchbar*/
+
+.fa-wiki-special {
+  color: black;
+  margin-left: -400px;
+  margin-bottom: 20px;
+}
+
+
+/*x icon inside the searchbar*/
+
+.fa-window-close {
+  color: rgb(70, 70, 70);
+  margin-left: 333px;
+  padding-right: 7px;
+}
+
+
+/*changes cursor when over x icon*/
+
+.fa-window-close:hover {
+  cursor: pointer;
+}
+
+
+/*output container*/
+
+.searchContainer {
+  margin-top: 54px;
+  margin-left: 50px;
+  margin-right: 30px;
+}
+
+
+/*output text styling inside of the def-btn*/
+
+#output {
+  pull: left;
+  margin-top: 1%;
+  border-radius: 25px;
+  padding: 2%;
+}
+
+
+/*contains ouput results */
+
+.btn-default {
+  margin-bottom: 20px;
+  background-color: rgb(245, 245, 245);
+  padding: 3.5% 2% 1% 2%;
+  hover-color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: ;
+}
